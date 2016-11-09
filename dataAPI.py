@@ -2,8 +2,7 @@ import click
 import json
 
 
-
-
+# TODO: bio_sample_id will sonn morph into biosample_id
 
 
 @click.group()

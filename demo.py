@@ -1,8 +1,8 @@
 import subprocess
 
-#This script demostrates:
+#This script demonstrates:
 # 1. how to call a shell script within Python,
-# 2. how to get the returned information.
+# 2. how to retrieve the returned information.
 
 
 commands =[
