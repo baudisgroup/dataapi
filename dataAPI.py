@@ -2,7 +2,7 @@ import click
 import json
 
 
-# TODO: bio_sample_id will sonn morph into biosample_id
+# NOTE: bio_sample_id will soon morph into biosample_id
 
 
 @click.group()
@@ -29,7 +29,7 @@ def cli():
 	\b
 	Difference from GA4GH API:
 	1. Does not support dataset_id argument.
-	2. Does not provide page buffering, it's webserver's job.
+	2. Does not provide page buffering, it's the webserver's job.
 
 	'''
 	pass
