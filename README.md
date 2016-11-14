@@ -14,3 +14,7 @@
 
 ### For demotration:
     >python3 demo.py
+
+### Update 1:
+* Proto is renamed as dataAPI_proto.py
+* dataAPI.py now provides local functions for arraymap.
