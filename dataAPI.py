@@ -1,5 +1,6 @@
 import click
 import json
+<<<<<<< HEAD
 from pymongo import MongoClient
 from datetime import datetime
 import sys
@@ -96,6 +97,8 @@ def json_serial(obj):
 
 
 
+# NOTE: bio_sample_id will soon morph into biosample_id
+
 
 @click.group()
 def cli():
@@ -121,7 +124,7 @@ def cli():
 	\b
 	Difference from GA4GH API:
 	1. Does not support dataset_id argument.
-	2. Does not provide page buffering, it's webserver's job.
+	2. Does not provide page buffering, it's the webserver's job.
 
 	'''
 	pass
