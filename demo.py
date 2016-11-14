@@ -16,7 +16,7 @@ commands =[
 	'getbiosample B_789'
 ]
 for cmd in commands:
-	p = subprocess.Popen('python3 dataAPI.py %s' %cmd, shell=True, stdout=subprocess.PIPE, universal_newlines = True)
+	p = subprocess.Popen('python3 dataAPI_proto.py %s' %cmd, shell=True, stdout=subprocess.PIPE, universal_newlines = True)
 	print('Result of %s :' %cmd)
 
 	#communicate() will return both the running result and the return code.
