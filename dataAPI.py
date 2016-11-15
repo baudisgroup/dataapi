@@ -1,6 +1,5 @@
 import click
 import json
-<<<<<<< HEAD
 from pymongo import MongoClient
 from datetime import datetime
 import sys
@@ -81,7 +80,7 @@ def getv(v_id):
 def getcs(cs_id):
 	'''get a call set by id'''
 	return db[collection_name_callsets].find_one({'id': cs_id },{'_id':0})
-	
+
 def getbs(bs_id):
 	'''get a biosample by id'''
 	return db[collection_name_biosamples].find_one({'id': bs_id },{'_id':0})
